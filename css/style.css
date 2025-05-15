@@ -237,7 +237,7 @@ body {
     bottom: 80px;
     right: 80px;
 }
-
+/* responsice */
 @media (max-width: 768px) {
     .product-card {
         width: 150px;
