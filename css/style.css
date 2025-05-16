@@ -5,14 +5,14 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: white;
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #fdfdfd;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .products-container h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 400;
     margin: 10px 0;
@@ -91,7 +91,7 @@ body {
 
 .products-container .products-button {
     font-size: 14px;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 14px;
     color: #323334;
@@ -111,11 +111,12 @@ body {
 }
 
 .feature-text {
-    background-color: #2f3c4c;
+    background-color: #384353;
     color: #fff;
     flex: 1 1 50%;
     padding: 60px;
     display: flex;
+    font-family: 'Roboto', sans-serif;
     flex-direction: column;
     justify-content: center;
 }
@@ -125,10 +126,12 @@ body {
     margin-bottom: 20px;
     font-weight: 400;
     color: #FCFDFD;
+    font-family: 'Roboto', sans-serif;
 }
 
 .feature-text p {
     width: 75%;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.7;
@@ -143,12 +146,14 @@ body {
     color: #fff;
     border-bottom: 1px solid #fff;
     width: fit-content;
+    font-family: 'Roboto', sans-serif;
     transition: color 0.3s ease, border-color 0.3s ease;
 }
 
 .feature-text a:hover {
     color: #aaa;
     border-color: #aaa;
+    font-family: 'Roboto', sans-serif;
 }
 
 .feature-image {
@@ -188,7 +193,7 @@ body {
 .room-section {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
 }
 
 .product-card {
@@ -237,6 +242,7 @@ body {
     bottom: 80px;
     right: 80px;
 }
+
 /* responsice */
 @media (max-width: 768px) {
     .product-card {
@@ -251,5 +257,241 @@ body {
     .right-card {
         bottom: 30px;
         right: 20px;
+    }
+}
+
+
+/* .sctionciziq */
+
+.sctionciziq {
+    width: 100%;
+    position: relative;
+    height: 95vh;
+    z-index: 1;
+}
+
+.page-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color:#384353;
+    border: 1px solid #7da4c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.side-label {
+    text-orientation: upright;
+    position: absolute;
+    left: 0;
+    height: 91.7%;
+    background-color: #384353;
+    color: white;
+    padding: 20px 20px;
+    border-right: 1px solid #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.side-label p {
+    writing-mode: sideways-lr;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    height: 600px;
+}
+
+.left-panel {
+    flex: 1.8;
+    background-color:#384353;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-right: 1px solid #aaa;
+    padding: 20px;
+    text-align: center;
+    gap: 400px;
+}
+
+.left-panel h1 {
+    font-size: 56px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left-panel .desc {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.right-panel {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-color:#384353;
+}
+
+.right-panel hr {
+    margin-top: 22px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    color: white;
+    font-size: 14px;
+    border-bottom: 1px solid #aaa;
+    letter-spacing: 1px;
+}
+
+.image-section {
+    width: 95.5%;
+    background-color: #f0f0f0;
+    margin: 22px;
+    flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.image-section img {
+    width: 95%;
+    max-height: 500px;
+    margin: -60px 0px 20px 0px;
+}
+
+.image-footer {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+    padding: 0 5px 10px;
+}
+
+.details {
+    border-top: 1px solid #aaa;
+    font-size: 14px;
+    color: white;
+}
+
+.details div {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    border-bottom: 1px solid #aaa;
+}
+
+.footer-text {
+    background-color:#384353;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+    font-weight: 400;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+.product-grid {
+    background-color: #384353;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-grid-header {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 30px;
+}
+
+.product {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.product img {
+    width: 90%;
+    height: 420px;
+    margin-bottom: 30px;
+}
+
+.product .info {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 5px;
+}
+
+.shop-all {
+    text-align: center;
+    background-color:#384353;
+    color: white;
+    padding: 15px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #384353;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 4px;
+}
+
+.shop-all {
+    text-align: center;
+    background-color:#384353;
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    letter-spacing: 1px;
+}
+.shop-all button{
+    background-color: #384353;
+    color: white;
+    border: none;
+}
+@media screen and (max-width: 1024px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .product-grid {
+        grid-template-columns: 1fr;
     }
 }
